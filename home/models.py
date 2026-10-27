@@ -4,6 +4,7 @@ from wagtail.models import Page
 from wagtail.fields import RichTextField
 
 class HomePage(Page):
-    body = RichTextField(blank=True)
+    pass
 
-    conten_panels = Page.content_panels + ["body"]
+class CompetencesPage(Page):
+    pass
